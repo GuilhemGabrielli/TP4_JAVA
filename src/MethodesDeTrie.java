@@ -12,11 +12,12 @@ public class MethodesDeTrie {
     public static List<Joueur> TriPartSelection_Nom(List<Joueur> listeAtrier) {
         Integer tailleListe = listeAtrier.size();
         for (int i = 0; i < tailleListe-2; i++) {
-            Joueur joueurMin1 = listeAtrier.get(i);
+            String nomJoueurMin1 = listeAtrier.get(i).getNom();
             Integer min = i;
-            for (int j = i; i+1 < tailleListe-1; j++) {
-                Joueur joueurMin2 = listeAtrier.get(j);
-                if (joueurMin2.getNom().compareTo(joueurMin1.getNom())<0) {
+            for (int j = 0; j < tailleListe-1; j++) {
+                String nomJoueurMin2 = listeAtrier.get(j).getNom();
+                System.out.println(nomJoueurMin1 + ", "+nomJoueurMin2+", "+nomJoueurMin1.compareTo(nomJoueurMin2));
+                if (nomJoueurMin1.compareTo(nomJoueurMin2)>0) {
                     min = j;
                 }
             }
