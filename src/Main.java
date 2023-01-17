@@ -34,13 +34,10 @@ public class Main {
         listeJoueur.add(joueur8);
         Collections.shuffle(listeJoueur);
 
+        MethodesDeTrie methodesDeTrie = new MethodesDeTrie(listeJoueur);
 
-        MethodesDeTrie methodesDeTrie = new MethodesDeTrie();
-
-        listeJoueur = methodesDeTrie.TriPartSelection_Nom(listeJoueur);
-
-        for (Joueur joueur: listeJoueur) {
-            System.out.println(joueur.getNom());
-        }
+        methodesDeTrie.afficherList();
+        methodesDeTrie.TriARapide_Nom();
+        methodesDeTrie.afficherList();
     }
 }
