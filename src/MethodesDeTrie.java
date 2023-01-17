@@ -104,4 +104,9 @@ public class MethodesDeTrie {
         echanger(first, compteur);
         return compteur;
     }
+
+
+    private void fusion(Integer first, Integer middle, Integer last) {
+
+    }
 }
