@@ -1,0 +1,10 @@
+dontinline,*.*_all_jmhStub
+dontinline,*.*_avgt_jmhStub
+dontinline,*.*_sample_jmhStub
+dontinline,*.*_ss_jmhStub
+dontinline,*.*_thrpt_jmhStub
+inline,bench/MethodesDeTrie.TriABulles_Nom
+inline,bench/MethodesDeTrie.TriARapide_Nom
+inline,bench/MethodesDeTrie.TriPartInsertion_Nom
+inline,bench/MethodesDeTrie.TriPartSelection_Nom
+inline,bench/MethodesDeTrie.sort

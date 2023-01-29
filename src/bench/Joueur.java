@@ -1,3 +1,6 @@
+package bench;
+
+import java.util.Objects;
 
 public class Joueur {
 

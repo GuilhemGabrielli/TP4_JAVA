@@ -1,0 +1,5 @@
+JMH S 20 bench.MethodesDeTrie S 57 bench.jmh_generated.MethodesDeTrie_TriABulles_Nom_jmhTest S 14 TriABulles_Nom S 10 Throughput E A 1 1 1 E E E E E E E E E E E E E E E E E 
+JMH S 20 bench.MethodesDeTrie S 57 bench.jmh_generated.MethodesDeTrie_TriARapide_Nom_jmhTest S 14 TriARapide_Nom S 10 Throughput E A 1 1 1 E E E E E E E E E E E E E E E E E 
+JMH S 20 bench.MethodesDeTrie S 63 bench.jmh_generated.MethodesDeTrie_TriPartInsertion_Nom_jmhTest S 20 TriPartInsertion_Nom S 10 Throughput E A 1 1 1 E E E E E E E E E E E E E E E E E 
+JMH S 20 bench.MethodesDeTrie S 63 bench.jmh_generated.MethodesDeTrie_TriPartSelection_Nom_jmhTest S 20 TriPartSelection_Nom S 10 Throughput E A 1 1 1 E E E E E E E E E E E E E E E E E 
+JMH S 20 bench.MethodesDeTrie S 47 bench.jmh_generated.MethodesDeTrie_sort_jmhTest S 4 sort S 10 Throughput E A 1 1 1 E E E E E E E E E E E E E E E E E 

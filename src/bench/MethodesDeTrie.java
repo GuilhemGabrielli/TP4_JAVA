@@ -1,11 +1,26 @@
+package bench;
+
+import org.openjdk.jmh.annotations.Benchmark;
+import org.openjdk.jmh.annotations.Scope;
+import org.openjdk.jmh.annotations.State;
+
+import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
+@State(Scope.Benchmark)
 public class MethodesDeTrie {
+
     static List<Joueur> listJoueur;
 
     MethodesDeTrie(List<Joueur> joueurs) {
         this.listJoueur = joueurs;
     }
+
+    public MethodesDeTrie() {
+        this.listJoueur = new ArrayList<>();
+    }
+
 
     public void afficherList() {
         for (int i = 0; i < listJoueur.size()-1; i++) {
@@ -20,6 +35,7 @@ public class MethodesDeTrie {
         listJoueur.set(index2, joueur);
     }
 
+    @Benchmark
     public static void TriPartSelection_Nom() {
         Integer tailleListe = listJoueur.size();
         for (int i = 0; i < tailleListe-1; i++) {
@@ -50,6 +66,7 @@ public class MethodesDeTrie {
         }
     }
 
+    @Benchmark
     public static void TriPartInsertion_Nom() {
         for (int i = 1; i < listJoueur.size(); i++) {
             Joueur joueurADecaler = listJoueur.get(i);
@@ -62,6 +79,7 @@ public class MethodesDeTrie {
         }
     }
 
+    @Benchmark
     public static void TriABulles_Nom() {
         boolean tableauTrie;
         for (int i = listJoueur.size(); i > 0 ; i--) {
@@ -78,6 +96,7 @@ public class MethodesDeTrie {
         }
     }
 
+    @Benchmark
     public void TriARapide_Nom() {
         this.TriRapideBis(0, listJoueur.size());
     }
@@ -105,8 +124,8 @@ public class MethodesDeTrie {
         return compteur;
     }
 
-
-    private void fusion(Integer first, Integer middle, Integer last) {
-
+    @Benchmark
+    public void sort() {
+        Collections.sort(listJoueur, null);
     }
 }
