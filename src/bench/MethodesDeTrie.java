@@ -22,11 +22,13 @@ public class MethodesDeTrie {
     }
 
 
-    public void afficherList() {
+    public String getAffichage() {
+        String result = "";
         for (int i = 0; i < listJoueur.size()-1; i++) {
-            System.out.print(listJoueur.get(i).getPseudo()+" -> ");
+            result += listJoueur.get(i).getPseudo()+" -> ";
         }
-        System.out.print(listJoueur.get(listJoueur.size()-1).getPseudo()+"\n");
+        result += listJoueur.get(listJoueur.size()-1).getPseudo()+"\n";
+        return result;
     }
 
     private static void echanger(Integer index1, Integer index2) {
@@ -36,7 +38,7 @@ public class MethodesDeTrie {
     }
 
     @Benchmark
-    public static void TriPartSelection_Nom() {
+    public static void TriParSelection_Nom() {
         Integer tailleListe = listJoueur.size();
         for (int i = 0; i < tailleListe-1; i++) {
             Integer min = i;
@@ -51,7 +53,7 @@ public class MethodesDeTrie {
         }
     }
 
-    public static void TriPartSelection_Pseudo() {
+    public static void TriParSelection_Pseudo() {
         Integer tailleListe = listJoueur.size();
         for (int i = 0; i < tailleListe - 1; i++) {
             Integer min = i;
@@ -67,7 +69,7 @@ public class MethodesDeTrie {
     }
 
     @Benchmark
-    public static void TriPartInsertion_Nom() {
+    public static void TriParInsertion_Nom() {
         for (int i = 1; i < listJoueur.size(); i++) {
             Joueur joueurADecaler = listJoueur.get(i);
             Integer j = i;

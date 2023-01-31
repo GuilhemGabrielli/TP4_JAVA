@@ -5,6 +5,6 @@ dontinline,*.*_ss_jmhStub
 dontinline,*.*_thrpt_jmhStub
 inline,bench/MethodesDeTrie.TriABulles_Nom
 inline,bench/MethodesDeTrie.TriARapide_Nom
-inline,bench/MethodesDeTrie.TriPartInsertion_Nom
-inline,bench/MethodesDeTrie.TriPartSelection_Nom
+inline,bench/MethodesDeTrie.TriParInsertion_Nom
+inline,bench/MethodesDeTrie.TriParSelection_Nom
 inline,bench/MethodesDeTrie.sort
