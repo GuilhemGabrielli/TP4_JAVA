@@ -1,5 +1,8 @@
-JMH S 20 bench.MethodesDeTrie S 57 bench.jmh_generated.MethodesDeTrie_TriABulles_Nom_jmhTest S 14 TriABulles_Nom S 10 Throughput E A 1 1 1 E E E E E E E E E E E E E E E E E 
-JMH S 20 bench.MethodesDeTrie S 57 bench.jmh_generated.MethodesDeTrie_TriARapide_Nom_jmhTest S 14 TriARapide_Nom S 10 Throughput E A 1 1 1 E E E E E E E E E E E E E E E E E 
-JMH S 20 bench.MethodesDeTrie S 62 bench.jmh_generated.MethodesDeTrie_TriParInsertion_Nom_jmhTest S 19 TriParInsertion_Nom S 10 Throughput E A 1 1 1 E E E E E E E E E E E E E E E E E 
-JMH S 20 bench.MethodesDeTrie S 62 bench.jmh_generated.MethodesDeTrie_TriParSelection_Nom_jmhTest S 19 TriParSelection_Nom S 10 Throughput E A 1 1 1 E E E E E E E E E E E E E E E E E 
-JMH S 20 bench.MethodesDeTrie S 47 bench.jmh_generated.MethodesDeTrie_sort_jmhTest S 4 sort S 10 Throughput E A 1 1 1 E E E E E E E E E E E E E E E E E 
+JMH S 24 Benchmark.MethodesDeTrie S 57 Benchmark.jmh_generated.MethodesDeTrie_TriABulles_jmhTest S 10 TriABulles S 10 Throughput E A 1 1 1 E E E E E E E E E E E E E E E E E 
+JMH S 24 Benchmark.MethodesDeTrie S 57 Benchmark.jmh_generated.MethodesDeTrie_TriARapide_jmhTest S 10 TriARapide S 10 Throughput E A 1 1 1 E E E E E E E E E E E E E E E E E 
+JMH S 24 Benchmark.MethodesDeTrie S 62 Benchmark.jmh_generated.MethodesDeTrie_TriParInsertion_jmhTest S 15 TriParInsertion S 10 Throughput E A 1 1 1 E E E E E E E E E E E E E E E E E 
+JMH S 24 Benchmark.MethodesDeTrie S 62 Benchmark.jmh_generated.MethodesDeTrie_TriParSelection_jmhTest S 15 TriParSelection S 10 Throughput E A 1 1 1 E E E E E E E E E E E E E E E E E 
+JMH S 20 bench.MethodesDeTrie S 53 bench.jmh_generated.MethodesDeTrie_TriABulles_jmhTest S 10 TriABulles S 10 Throughput E A 1 1 1 E E E E E E E E E E E E E E E E E 
+JMH S 20 bench.MethodesDeTrie S 53 bench.jmh_generated.MethodesDeTrie_TriARapide_jmhTest S 10 TriARapide S 10 Throughput E A 1 1 1 E E E E E E E E E E E E E E E E E 
+JMH S 20 bench.MethodesDeTrie S 58 bench.jmh_generated.MethodesDeTrie_TriParInsertion_jmhTest S 15 TriParInsertion S 10 Throughput E A 1 1 1 E E E E E E E E E E E E E E E E E 
+JMH S 20 bench.MethodesDeTrie S 58 bench.jmh_generated.MethodesDeTrie_TriParSelection_jmhTest S 15 TriParSelection S 10 Throughput E A 1 1 1 E E E E E E E E E E E E E E E E E 

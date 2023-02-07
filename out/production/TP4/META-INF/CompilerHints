@@ -3,8 +3,7 @@ dontinline,*.*_avgt_jmhStub
 dontinline,*.*_sample_jmhStub
 dontinline,*.*_ss_jmhStub
 dontinline,*.*_thrpt_jmhStub
-inline,bench/MethodesDeTrie.TriABulles_Nom
-inline,bench/MethodesDeTrie.TriARapide_Nom
-inline,bench/MethodesDeTrie.TriParInsertion_Nom
-inline,bench/MethodesDeTrie.TriParSelection_Nom
-inline,bench/MethodesDeTrie.sort
+inline,Benchmark/MethodesDeTrie.TriABulles
+inline,Benchmark/MethodesDeTrie.TriARapide
+inline,Benchmark/MethodesDeTrie.TriParInsertion
+inline,Benchmark/MethodesDeTrie.TriParSelection
